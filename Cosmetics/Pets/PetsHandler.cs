@@ -185,7 +185,6 @@ namespace SCPCosmetics.Cosmetics.Pets
             GameObject gameObject = UnityEngine.Object.Instantiate(NetworkManager.singleton.playerPrefab);
             Npc npc = new(gameObject)
             {
-                IsNPC = true
             };
             try
             {

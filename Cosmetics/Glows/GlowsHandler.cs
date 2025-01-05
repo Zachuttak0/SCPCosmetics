@@ -36,7 +36,7 @@ namespace SCPCosmetics.Cosmetics.Glows
             GlowComponent glowComp = player.GameObject.AddComponent<GlowComponent>();
 
             glowComp.GlowLight = Exiled.API.Features.Toys.Light.Create(player.Position, null, null, true, color);
-            glowComp.GlowLight.ShadowEmission = false;
+            glowComp.GlowLight.ShadowStrength = 0;
             glowComp.GlowLight.Range = 1.15f;
             glowComp.GlowLight.Intensity = 5f;
 
